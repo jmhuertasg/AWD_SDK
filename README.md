@@ -13,3 +13,14 @@ For Boto3 and AWS documentation, see the following:
 AWS SDK for Python (Boto3) Documentation
 AWS Documentation
 Examples
+
+## Proyecto  Pycharm con las utilidades del proyecto
+### Codigo contenido
+	\python_a_S3\src\
+    Load_files_to_S3.py ------------------Utilidad para la subida de los ficheros csv descargados de la web publica a S3.
+	job_Generado_Auto.py ------------------Utilidad codigo del job de AWS Glue que trasmiete los datos desde S3 a RedShift
+## Proyecto  Pycharm con las utilidades del proyecto
+### Codigo contenido
+	\javaProject\src\
+	Producer_stream_kinesis.java ------------------Generacion flujo de datos para la subida de datos generados para el envio a Kinesis.  
+	KinesisFirehoseClient.java   ------------------Objeto y credenciales.
